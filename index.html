@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,48 +10,53 @@
 </head>
 
 <body>
-    <div id="time">
-        <div class="circle" style="--clr:#fff;">
-            <div class="dots day_dot"></div>
-            <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70" id="dd"></circle>
-            </svg>
-            <div id="days">00<span><br>Days</span></div>
-        </div>
+    <div class="container">
+        <header class="header">
+            <h1>Contagem Regressiva Ano Novo</h1>
+        </header>
 
-        <div class="circle" style="--clr:#ff2972;">
-            <div class="dots hr_dot"></div>
-            <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70" id="hh"></circle>
-            </svg>
-            <div id="hours">00</div>
-        </div>
+        <div id="time">
+            <div class="circle" style="--clr:#fff;">
+                <div class="dots day_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="dd"></circle>
+                </svg>
+                <div id="days">00<span><br>Days</span></div>
+            </div>
 
-        <div class="circle" style="--clr:#f0c505;">
-            <div class="dots min_dot"></div>
-            <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70" id="mm"></circle>
-            </svg>
-            <div id="minutes">00</div>
-        </div>
+            <div class="circle" style="--clr:#ff2972;">
+                <div class="dots hr_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+                <div id="hours">00</div>
+            </div>
 
-        <div class="circle" style="--clr:#52e5ea;">
-            <div class="dots sec_dot"></div>
-            <svg>
-                <circle cx="70" cy="70" r="70"></circle>
-                <circle cx="70" cy="70" r="70" id="ss"></circle>
-            </svg>
-            <div id="seconds">00</div>
+            <div class="circle" style="--clr:#f0c505;">
+                <div class="dots min_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minutes">00</div>
+            </div>
+
+            <div class="circle" style="--clr:#52e5ea;">
+                <div class="dots sec_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="seconds">00</div>
+            </div>
         </div>
     </div>
 
     <h2 class="newYear">2023<br><span>Feliz Ano Novo!</span></h2>
 
     <script src="assets/script.js"></script>
-
 </body>
 
 </html>
