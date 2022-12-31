@@ -48,6 +48,7 @@ let x = setInterval(function () {
     //if the countdown is over, write some text
     if (distance < 0) {
         clearInterval(x);
+        document.querySelector('.header').style.display = 'none';
         document.getElementById('time').style.display = 'none';
         document.querySelector('.newYear').style.display = 'block';
     }
