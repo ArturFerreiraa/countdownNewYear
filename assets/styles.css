@@ -15,9 +15,20 @@ body {
     background: #2f363e;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 #time {
     display: flex;
     gap: 30px;
+}
+
+.header {
+    margin: 2em auto;
+    text-align: center;
+    color: #fff;
 }
 
 #time .circle {
